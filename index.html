@@ -3,5 +3,12 @@
     <title>Hyoungjoo Kim</title>
 </head>
 <body>
-    
+    <script src='js/pdfobject.js'></script>
+    <script>
+        var options = {
+           pdfOpenParams: { view: 'FitH' },
+           fallbackLink: '<p><a href="[url]">Here is my Curriculum Vitae.</a></p>'
+        };
+        PDFObject.embed("cv/hyoungjookim.pdf", false, options);
+    </script>
 </body>

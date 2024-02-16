@@ -1,10 +1,16 @@
 import json
 
+# Replace Html Syntax
 def _rhs(str):
     return str.replace('<strong>', '\\textbf{').replace('</strong>', '}') \
               .replace('<i>', '\\textit{').replace('</i>', '}') \
               .replace('<a href=\"', '\\href{').replace('\">', '}{').replace('</a>', '}')
 
+# Remove Suffix Newline
+def _rsn(str):
+    if not str.endswith('\\newline\n'):
+        return str
+    return str[:-9] + '\n'
 
 def generate_paragraph_section(section):
     latex_content = ""
@@ -18,7 +24,7 @@ def generate_organization_section(section):
     for item in section['items']:
         latex_content += '\\resumeSubheading' + \
             '{\\href{' + item['organization_link'] + '}' + \
-            '{' + item['organization'] + '} }{' + item['location'] + '}{' + item['years'] + '}\n' + \
+            '{' + item['organization'] + '}}{' + item['location'] + '}{' + item['years'] + '}\n' + \
             '{' + item['job_title'] + '\\newline\n'
         if 'advisor' in item:
             latex_content += 'Advisor: \\href{' + item['advisor_link'] + '}{' + item['advisor'] + '} \\newline\n'
@@ -30,6 +36,7 @@ def generate_organization_section(section):
             for project in item['projects']:
                 latex_content += '\\item {\\textit{' + project['title'] + '}: ' + _rhs(project['detail']) + '}\n'
             latex_content += '\\end{itemize}\n'
+        latex_content = _rsn(latex_content)
         latex_content += '}\n'
     latex_content += '\\resumeSubHeadingListEnd\n'
     return latex_content
@@ -40,7 +47,7 @@ def generate_publication_section(section):
         latex_content += '\\resumeSubheadingItem{\n' + \
             _rhs(item['authors']) + '\\newline\n' + \
             '\\href{' + item['pub_link'] + '}{' + item['pub_title'] + '} \\newline\n' + \
-            '\\textit{' + item['journal'] + '}, ' + item['year'] + ' (' + _rhs(item['etc']) + ')}'
+            '\\textit{' + item['journal'] + '}, ' + item['year'] + ' (' + _rhs(item['etc']) + ')}\n'
     latex_content += '\\resumeSubHeadingListEnd\n'
     return latex_content
 

@@ -74,7 +74,7 @@
             ]
         },
         {
-            "title": "Experiences",
+            "title": "Research and Work Experiences",
             "format": "organization",
             "show_in_html": true,
             "show_in_cv": true,
@@ -240,7 +240,7 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PostgreSQL, PyTorch"
+                    "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PostgreSQL, PyTorch, ZSim"
                 },
                 {
                     "title": "Computer Architecture and Simulation, Databases, GPUs, Machine Learning Systems, Operating Systems, Processing-in-Memory"

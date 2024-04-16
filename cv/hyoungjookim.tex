@@ -23,6 +23,7 @@
 \usepackage{ragged2e}
 \usepackage{csquotes}
 
+\MakeOuterQuote{"}
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -77,22 +78,20 @@
 \begin{document}
 
 \begin{center}
-	\begin{tabular}{p{0.3\textwidth} p{0.4\textwidth} p{0.3\textwidth}}
-		\raisebox{-0.7\height}{\includegraphics[width=0.3\textwidth]{../info/photo.jpg}} &
-		\centerline{\textbf{{\LARGE Hyoungjoo Kim}}}
-		\vspace{20pt}
-		\centerline{\href{mailto:hyoungjoo@cmu.edu}{hyoungjoo@cmu.edu}}
-		\vspace{10pt}
-		\centerline{\url{https://hyoungjook.github.io}}
-		\vspace{10pt}
-		\centerline{
-			\LARGE
-			\href{https://scholar.google.com/citations?user=sYhlQ1YAAAAJ&hl=en}{\faicon{graduation-cap}} \quad
-			\href{https://www.linkedin.com/in/hyoungjoo-kim-546986194}{\faicon{linkedin}} \quad
-			\href{https://github.com/hyoungjook}{\faicon{github}}
-		} & \\
-	\end{tabular}
+	\centerline{\textbf{{\LARGE Hyoungjoo Kim}}}
+	\vspace{10pt}
+	\centerline{\href{mailto:hyoungjoo@cmu.edu}{hyoungjoo@cmu.edu}}
+	\vspace{5pt}
+	\centerline{\url{https://hyoungjook.github.io}}
+	\vspace{10pt}
+	\centerline{
+		\LARGE
+		\href{https://scholar.google.com/citations?user=sYhlQ1YAAAAJ&hl=en}{\faicon{graduation-cap}} \quad
+		\href{https://www.linkedin.com/in/hyoungjoo-kim-546986194}{\faicon{linkedin}} \quad
+		\href{https://github.com/hyoungjook}{\faicon{github}}
+	}
 \end{center}
+\vspace{-20pt}
 
 \input{info.tex}
 

@@ -50,10 +50,6 @@
             transition: transform 0.3s ease;
         }
 
-        h1:hover {
-            transform: scale(1.1);
-        }
-
         p.subtitle {
             width: fit-content;
             margin: auto;
@@ -62,10 +58,6 @@
             margin-bottom: 20px;
             color: #777;
             transition: transform 0.3s ease;
-        }
-
-        p.subtitle:hover {
-            transform: scale(1.1);
         }
 
         .section {
@@ -96,7 +88,7 @@
         .section p {
             font-family: 'Merriweather', serif;
             line-height: 1.6;
-            font-size: 14px;
+            font-size: 15px;
             color: #555;
             text-align: justify;
             margin-left: 20px;
@@ -227,8 +219,13 @@
         function generateOrganizationSection(sectionElement, items) {
             items.forEach(item => {
                 const itemElement = document.createElement('p');
-                itemElement.innerHTML = `<a href=${item.organization_link}><strong>${item.organization}</strong></a> <span><i>${item.years}</i></span><br>` +
-                                        `${item.job_title}`;
+                itemElement.innerHTML = `<a href=${item.organization_link}><strong>${item.organization}</strong></a> <span><i>${item.years}</i></span>`;
+                if (item.job_title) {
+                    itemElement.innerHTML += `<br>${item.job_title}`;
+                }
+                if (item.details) {
+                    itemElement.innerHTML += `<br>${item.details[0]}`;
+                }
                 sectionElement.appendChild(itemElement);
             })
         }

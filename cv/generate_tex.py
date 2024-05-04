@@ -47,7 +47,10 @@ def generate_publication_section(section):
         latex_content += '\\resumeSubheadingItem{\n' + \
             _rhs(item['authors']) + '\\newline\n' + \
             '\\href{' + item['pub_link'] + '}{' + item['pub_title'] + '} \\newline\n' + \
-            '\\textit{' + item['journal'] + '}, ' + item['year'] + ' (' + _rhs(item['etc']) + ')}\n'
+            '\\textit{' + item['journal'] + '}, ' + item['year']
+        if 'etc' in item:
+            latex_content += ' (' + _rhs(item['etc']) + ')'
+        latex_content += '}\n'
     latex_content += '\\resumeSubHeadingListEnd\n'
     return latex_content
 

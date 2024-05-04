@@ -53,7 +53,7 @@
         p.subtitle {
             width: fit-content;
             margin: auto;
-            font-family: 'Merriweather', serif;
+            font-family: 'Mulish', sans-serif;
             font-size: 18px;
             margin-bottom: 20px;
             color: #777;
@@ -86,7 +86,7 @@
         }
 
         .section p {
-            font-family: 'Merriweather', serif;
+            font-family: 'Mulish', sans-serif;
             line-height: 1.6;
             font-size: 15px;
             color: #555;
@@ -145,7 +145,7 @@
         }
 
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -234,7 +234,10 @@
             items.forEach(item => {
                 const itemElement = document.createElement('p');
                 itemElement.innerHTML = `${item.authors}<br><a href=${item.pub_link}><strong>${item.pub_title}</strong></a><br>` +
-                                        `<i>${item.journal}</i>, ${item.year} (${item.etc})`;
+                                        `<i>${item.journal}</i>, ${item.year}`;
+                if (item.etc) {
+                    itemElement.innerHTML += ` (${item.etc})`;
+                }
                 sectionElement.appendChild(itemElement);
             })
         }

@@ -80,6 +80,13 @@
             "show_in_cv": true,
             "items": [
                 {
+                    "organization": "Microsoft",
+                    "organization_link": "https://www.microsoft.com/en-us/research/",
+                    "location": "Redmond, Washington",
+                    "years": "Summer 2024",
+                    "job_title": "Research Intern"
+                },
+                {
                     "organization": "Parallel Data Lab",
                     "organization_link": "https://pdl.cmu.edu/index.shtml",
                     "location": "Pittsburgh, Pennsylvania",

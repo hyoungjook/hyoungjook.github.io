@@ -6,7 +6,7 @@
             "show_in_html": true,
             "show_in_cv": false,
             "items": [
-                "Hi! I'm a first-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by Professor <a href=\"https://www.cs.cmu.edu/~gibbons/\">Phil Gibbons</a>. I am interested in designing <strong>Software Systems</strong> for <strong>Heterogeneous Devices</strong>. I am currently working on <strong>Databases</strong> for <strong>Processing-in-Memory</strong>. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a>. I also have experience in Machine Learning Systems, CUDA programming, and GPU architectures."
+                "Hi! I'm a second-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by Professor <a href=\"https://www.cs.cmu.edu/~gibbons/\">Phil Gibbons</a>. I am interested in designing <strong>Data-Driven Software Systems</strong> for <strong>Heterogeneous Hardwares</strong>. I am currently working on <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a> and worked on Machine Learning Systems, CUDA programming, and GPU architectures."
             ]
         },
         {
@@ -15,8 +15,8 @@
             "show_in_html": false,
             "show_in_cv": true,
             "items": [
-                "I'm interested in designing <strong>Software Systems</strong> for <strong>Heterogeneous Devices</strong>.",
-                "My current research is designing <strong>Databases</strong> for <strong>Processing-in-Memory</strong>. Previously, I have worked on Machine Learning Systems and GPU clusters."
+                "I'm interested in designing <strong>Data-Driven Software Systems</strong> for <strong>Heterogeneous Hardwares</strong>.",
+                "My current research is designing <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data. Previously, I have worked on Machine Learning Systems and GPU clusters."
             ]
         },
         {
@@ -79,13 +79,7 @@
             "show_in_html": true,
             "show_in_cv": true,
             "items": [
-                {
-                    "organization": "Microsoft",
-                    "organization_link": "https://www.microsoft.com/en-us/research/",
-                    "location": "Redmond, Washington",
-                    "years": "Summer 2024",
-                    "job_title": "Research Intern"
-                },
+                
                 {
                     "organization": "Parallel Data Lab",
                     "organization_link": "https://pdl.cmu.edu/index.shtml",
@@ -98,6 +92,13 @@
                             "detail": "(In Progress) Designing fast and efficient DBMS for Processing-in-Memory Systems"
                         }
                     ]
+                },
+                {
+                    "organization": "Microsoft",
+                    "organization_link": "https://www.microsoft.com/en-us/research/",
+                    "location": "Redmond, Washington",
+                    "years": "Summer 2024",
+                    "job_title": "Research Intern"
                 },
                 {
                     "organization": "FriendliAI",
@@ -247,13 +248,10 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PostgreSQL, PyTorch, ZSim"
+                    "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PyTorch, ZSim"
                 },
                 {
                     "title": "Computer Architecture and Simulation, Databases, GPUs, Machine Learning Systems, Operating Systems, Processing-in-Memory"
-                },
-                {
-                    "title": "TOEFL (R30/L28/S23/W28), GRE (V164/Q170/A4.0)"
                 }
             ]
         }

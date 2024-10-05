@@ -6,7 +6,7 @@
             "show_in_html": true,
             "show_in_cv": false,
             "items": [
-                "Hi! I'm a second-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by Professor <a href=\"https://www.cs.cmu.edu/~gibbons/\">Phil Gibbons</a>. I am interested in designing <strong>Data-Driven Software Systems</strong> for <strong>Heterogeneous Hardwares</strong>. I am currently working on <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a> and worked on Machine Learning Systems, CUDA programming, and GPU architectures."
+                "Hi! I'm a second-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by Professor <a href=\"https://www.cs.cmu.edu/~gibbons/\">Phil Gibbons</a>. I am interested in designing <strong>Data-Intensive Software Systems</strong> for <strong>Next-Generation Hardwares</strong>. I am currently working on <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a> and worked on Machine Learning Systems, CUDA programming, and GPU architectures."
             ]
         },
         {
@@ -15,8 +15,8 @@
             "show_in_html": false,
             "show_in_cv": true,
             "items": [
-                "I'm interested in designing <strong>Data-Driven Software Systems</strong> for <strong>Heterogeneous Hardwares</strong>.",
-                "My current research is designing <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data. Previously, I have worked on Machine Learning Systems and GPU clusters."
+                "I'm interested in designing <strong>Data-Intensive Software Systems</strong> for <strong>Next-Generation Hardwares</strong>.",
+                "My current research is designing <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data, and I'm also interested in <strong>Disaggregated Memory</strong> and <strong>Distributed Systems</strong>. Previously, I have worked on Machine Learning Systems and GPU clusters."
             ]
         },
         {
@@ -98,7 +98,13 @@
                     "organization_link": "https://www.microsoft.com/en-us/research/",
                     "location": "Redmond, Washington",
                     "years": "Summer 2024",
-                    "job_title": "Research Intern"
+                    "job_title": "Research Intern",
+                    "projects": [
+                        {
+                            "title": "",
+                            "detail": "(Working towards publication)"
+                        }
+                    ]
                 },
                 {
                     "organization": "FriendliAI",
@@ -251,7 +257,7 @@
                     "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PyTorch, ZSim"
                 },
                 {
-                    "title": "Computer Architecture and Simulation, Databases, GPUs, Machine Learning Systems, Operating Systems, Processing-in-Memory"
+                    "title": "Computer Architecture and Simulation, GPUs, Machine Learning Systems, Operating Systems, Processing-in-Memory, Relational and Vector Databases"
                 }
             ]
         }

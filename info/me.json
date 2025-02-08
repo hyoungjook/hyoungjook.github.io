@@ -15,8 +15,8 @@
             "show_in_html": false,
             "show_in_cv": true,
             "items": [
-                "I'm interested in designing <strong>Data-Intensive Software Systems</strong> for <strong>Next-Generation Hardwares</strong>.",
-                "My current research is designing <strong>Databases</strong> for <strong>Processing-in-Memory</strong> by pushing code towards data, and I'm also interested in <strong>Disaggregated Memory</strong> and <strong>Distributed Systems</strong>. Previously, I have worked on Machine Learning Systems and GPU clusters."
+                "I'm interested in designing <strong>Database Systems</strong> for <strong>Next-Generation Hardwares</strong>.",
+                "My current research is designing Databases for <strong>Processing-in-Memory</strong> by pushing code towards data, and I'm also interested in <strong>Disaggregated/Tiered Memory Systems</strong>. Previously, I have worked on Machine Learning Systems and GPU clusters."
             ]
         },
         {
@@ -88,8 +88,8 @@
                     "job_title": "Graduate Research Assistant",
                     "projects": [
                         {
-                            "title": "PIM-Friendly Database",
-                            "detail": "(In Progress) Designing fast and efficient DBMS for Processing-in-Memory Systems"
+                            "title": "OLTPim",
+                            "detail": "(In Progress) Designing fast and efficient OLTP DBMS for Processing-in-Memory"
                         }
                     ]
                 },
@@ -242,7 +242,11 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "Teaching Assistant - \"Operating Systems\", Seoul National University",
+                    "title": "Teaching Assistant, 15-445 \"Intro Database Systems\", Carnegie Mellon University",
+                    "years": "Spring 2025"
+                },
+                {
+                    "title": "Teaching Assistant, \"Operating Systems\", Seoul National University",
                     "years": "Spring 2023"
                 }
             ]
@@ -254,10 +258,13 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "C, C++, Python, CUDA, Verilog, Java, Linux Kernel, PyTorch, ZSim"
+                    "title": "C, C++, Python, CUDA, Verilog, Linux Kernel, SQL, PyTorch, ZSim"
                 },
                 {
-                    "title": "Computer Architecture and Simulation, GPUs, Machine Learning Systems, Operating Systems, Processing-in-Memory, Relational and Vector Databases"
+                    "title": "Computer Architecture and Simulation, GPUs, Machine Learning Systems, Memory Systems, Operating Systems, System Programming"
+                },
+                {
+                    "title": "Database Systems, Transaction Processing, Vector Indexes"
                 }
             ]
         }

@@ -6,7 +6,7 @@
             "show_in_html": true,
             "show_in_cv": false,
             "items": [
-                "Hi! I'm a second-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by Professor <a href=\"https://www.cs.cmu.edu/~gibbons/\">Phil Gibbons</a>. I am interested in designing <strong>Database Systems</strong> for <strong>Next-Generation Hardwares</strong>. I am currently working on Databases for <strong>Processing-in-Memory</strong> by pushing code towards data. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a> and worked on Machine Learning Systems, CUDA programming, and GPU architectures."
+                "Hi! I'm a second-year PhD student in the <a href=\"https://csd.cmu.edu/\">Computer Science Department at Carnegie Mellon University</a>, advised by <a href=\"https://www.cs.cmu.edu/~gibbons/\"><i>Phil Gibbons</i></a> and closely working with <a href=\"https://www.cs.cmu.edu/~pavlo/\"><i>Andy Pavlo</i></a>. I am interested in designing <strong>Database Systems</strong> for <strong>Novel Hardwares</strong>. My current research explores the potential of <strong>Processing-in-Memory</strong> on <strong>Transaction Processing</strong> by pushing code towards data. Before coming to CMU, I did my undergraduate at <a href=\"https://en.snu.ac.kr/\">Seoul National University</a> and worked on Machine Learning Systems and GPUs."
             ]
         },
         {
@@ -15,8 +15,8 @@
             "show_in_html": false,
             "show_in_cv": true,
             "items": [
-                "I'm interested in designing <strong>Database Systems</strong> for <strong>Next-Generation Hardwares</strong>.",
-                "My current research is designing Databases for <strong>Processing-in-Memory</strong> by pushing code towards data, and I'm also interested in <strong>Disaggregated/Tiered Memory Systems</strong>. Previously, I have worked on Machine Learning Systems and GPU clusters."
+                "I'm interested in designing <strong>Database Systems</strong> for <strong>Novel Hardwares</strong>.",
+                "My current research explores the potential of <strong>Processing-in-Memory</strong> on <strong>Transaction Processing</strong> by pushing code towards data. I have also worked on other Databases (Analytical, Vector), Machine Learning Systems, and GPUs."
             ]
         },
         {
@@ -32,7 +32,9 @@
                     "years": "2023 - Present",
                     "job_title": "Ph.D. Student in Computer Science",
                     "advisor": "Phillip B. Gibbons",
-                    "advisor_link": "https://www.cs.cmu.edu/~gibbons/"
+                    "advisor_link": "https://www.cs.cmu.edu/~gibbons/",
+                    "workedwith": "Andrew Pavlo",
+                    "workedwith_link": "https://www.cs.cmu.edu/~pavlo/"
                 },
                 {
                     "organization": "Seoul National University",
@@ -42,6 +44,8 @@
                     "job_title": "B.S. in Electrical and Computer Engineering",
                     "advisor": "Jangwoo Kim",
                     "advisor_link": "https://hpcs.snu.ac.kr/~jangwoo/",
+                    "workedwith": "Byung-Gon Chun",
+                    "workedwith_link": "https://bgchun.github.io/",
                     "details": [
                         "GPA: 4.28/4.3 (2nd/148)",
                         "{\\small The period includes two years of mandatory military service in South Korea.}"
@@ -79,17 +83,18 @@
             "show_in_html": true,
             "show_in_cv": true,
             "items": [
-                
                 {
                     "organization": "Parallel Data Lab",
                     "organization_link": "https://pdl.cmu.edu/index.shtml",
+                    "organization2": "CMU Database Group",
+                    "organization2_link": "https://db.cs.cmu.edu/",
                     "location": "Pittsburgh, Pennsylvania",
                     "years": "2023 - Present",
                     "job_title": "Graduate Research Assistant",
                     "projects": [
                         {
                             "title": "OLTPim",
-                            "detail": "(In Progress) Designing fast and efficient OLTP DBMS for Processing-in-Memory"
+                            "detail": "(In Progress) Fast and efficient OLTP DBMS for Processing-in-Memory"
                         }
                     ]
                 },
@@ -97,12 +102,12 @@
                     "organization": "Microsoft",
                     "organization_link": "https://www.microsoft.com/en-us/research/",
                     "location": "Redmond, Washington",
-                    "years": "Summer 2024",
+                    "years": "Summer 2024, Summer 2025",
                     "job_title": "Research Intern",
                     "projects": [
                         {
-                            "title": "",
-                            "detail": "(Working towards publication)"
+                            "title": "HIVF",
+                            "detail": "(In Progress) Vector index for GPU"
                         }
                     ]
                 },
@@ -162,19 +167,19 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "Overseas PhD Scholarship, Korea Foundation for Advanced Studies (KFAS)",
+                    "title": "Overseas PhD Scholarship, <i>Korea Foundation for Advanced Studies (KFAS)</i>",
                     "years": "2023 - 2028"
                 },
                 {
-                    "title": "The Presidential Science Scholarship, Korea Student Aid Foundation",
+                    "title": "The Presidential Science Scholarship, <i>Korea Student Aid Foundation (KOSAF)</i>",
                     "years": "2017 - 2023"
                 },
                 {
-                    "title": "Gold Medal, International Physics Olympiad (IPhO)",
+                    "title": "Gold Medal, <i>International Physics Olympiad (IPhO)</i>",
                     "years": "2016"
                 },
                 {
-                    "title": "Silver Prize, Samsung Humantech Paper Award (for high school students)",
+                    "title": "Silver Prize, <i>Samsung Humantech Paper Award (for high school students)</i>",
                     "years": "2016"
                 }
             ]

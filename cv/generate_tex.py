@@ -24,10 +24,17 @@ def generate_organization_section(section):
     for item in section['items']:
         latex_content += '\\resumeSubheading' + \
             '{\\href{' + item['organization_link'] + '}' + \
-            '{' + item['organization'] + '}}{' + item['location'] + '}{' + item['years'] + '}\n' + \
+            '{' + item['organization'] + '}'
+        if 'organization2' in item:
+            latex_content += ' {\\normalfont \\&} \\href{' + item['organization2_link'] + '}' + \
+                '{' + item['organization2'] + '}'
+        latex_content += '}{' + item['location'] + '}{' + item['years'] + '}\n' + \
             '{' + item['job_title'] + '\\newline\n'
         if 'advisor' in item:
-            latex_content += 'Advisor: \\href{' + item['advisor_link'] + '}{' + item['advisor'] + '} \\newline\n'
+            latex_content += 'Advisor: \\href{' + item['advisor_link'] + '}{' + item['advisor'] + '}'
+            if 'workedwith' in item:
+                latex_content += ', worked with \\href{' + item['workedwith_link'] + '}{' + item['workedwith'] + '}'
+            latex_content += ' \\newline\n'
         if 'details' in item:
             for detail in item['details']:
                 latex_content += _rhs(detail) + '\\newline\n'

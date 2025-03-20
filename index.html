@@ -219,7 +219,11 @@
         function generateOrganizationSection(sectionElement, items) {
             items.forEach(item => {
                 const itemElement = document.createElement('p');
-                itemElement.innerHTML = `<a href=${item.organization_link}><strong>${item.organization}</strong></a> <span><i>${item.years}</i></span>`;
+                itemElement.innerHTML = `<a href=${item.organization_link}><strong>${item.organization}</strong></a>`
+                if (item.organization2) {
+                    itemElement.innerHTML += ` & <a href=${item.organization2_link}><strong>${item.organization2}</strong></a>`
+                }
+                itemElement.innerHTML += ` <span><i>${item.years}</i></span>`;
                 if (item.job_title) {
                     itemElement.innerHTML += `<br>${item.job_title}`;
                 }

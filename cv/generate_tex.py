@@ -33,7 +33,7 @@ def generate_organization_section(section):
         if 'advisor' in item:
             latex_content += 'Advisor: \\href{' + item['advisor_link'] + '}{' + item['advisor'] + '}'
             if 'workedwith' in item:
-                latex_content += ', worked with \\href{' + item['workedwith_link'] + '}{' + item['workedwith'] + '}'
+                latex_content += ', also worked with \\href{' + item['workedwith_link'] + '}{' + item['workedwith'] + '}'
             latex_content += ' \\newline\n'
         if 'details' in item:
             for detail in item['details']:
@@ -41,7 +41,7 @@ def generate_organization_section(section):
         if 'projects' in item:
             latex_content += '\\vspace{-15pt}\n\\begin{itemize}\n'
             for project in item['projects']:
-                latex_content += '\\item {\\textit{' + project['title'] + '}: ' + _rhs(project['detail']) + '}\n'
+                latex_content += '\\item {' + _rhs(project) + '}\n'
             latex_content += '\\end{itemize}\n'
         latex_content = _rsn(latex_content)
         latex_content += '}\n'

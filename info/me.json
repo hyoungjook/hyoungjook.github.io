@@ -60,7 +60,7 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "authors": "Taebum Kim, <strong>Hyoungjoo Kim</strong>, Gyeong-In Yu, Byung-Gon Chun",
+                    "authors": "Taebum Kim, Hyoungjoo Kim, Gyeong-In Yu, Byung-Gon Chun",
                     "pub_title": "BPipe: Memory-Balanced Pipeline Parallelism for Training Large Language Models",
                     "pub_link": "https://proceedings.mlr.press/v202/kim23l.html",
                     "journal": "International Conference on Machine Learning (ICML)",
@@ -68,7 +68,7 @@
                     "etc": "Oral Presentation"
                 },
                 {
-                    "authors": "<strong>Hyoungjoo Kim</strong>",
+                    "authors": "Hyoungjoo Kim",
                     "pub_title": "Modeling the GPU Instruction Scheduling Performance using Microbenchmarks",
                     "pub_link": "https://github.com/hyoungjook/gpudiag/blob/master/documents/paper.pdf",
                     "journal": "Bachelor's Thesis, Seoul National University",
@@ -92,10 +92,7 @@
                     "years": "2023 - Present",
                     "job_title": "Graduate Research Assistant",
                     "projects": [
-                        {
-                            "title": "OLTPim",
-                            "detail": "(In Progress) Fast and efficient OLTP DBMS for Processing-in-Memory"
-                        }
+                        "OLTPim: (In Progress) Fast and efficient OLTP DBMS for Processing-in-Memory"
                     ]
                 },
                 {
@@ -105,10 +102,7 @@
                     "years": "Summer 2024, Summer 2025",
                     "job_title": "Research Intern",
                     "projects": [
-                        {
-                            "title": "HIVF",
-                            "detail": "(In Progress) Vector index for GPU"
-                        }
+                        "HIVF: (In Progress) Vector index for GPUs"
                     ]
                 },
                 {
@@ -118,14 +112,8 @@
                     "years": "2022 - 2023",
                     "job_title": "Research Intern",
                     "projects": [
-                        {
-                            "title": "BPipe",
-                            "detail": "Accelerating the training of LLMs by rebalancing memory utilizations"
-                        },
-                        {
-                            "title": "GPU Kernel Optimization",
-                            "detail": "Optimized CUDA kernels for training LLMs"
-                        }
+                        "BPipe: Accelerating the training of LLMs by rebalancing memory utilizations",
+                        "Optimizing GPU kernels for training LLMs"
                     ]
                 },
                 {
@@ -135,14 +123,8 @@
                     "years": "2021",
                     "job_title": "Undergraduate Thesis Project Student",
                     "projects": [
-                        {
-                            "title": "GPUDiag",
-                            "detail": "Modeling GPGPU microarchitecture using automated microbenchmarks"
-                        },
-                        {
-                            "title": "Multi-GPU gem5",
-                            "detail": "Extend gem5-APU to support multiple GPUs"
-                        }
+                        "GPUDiag: Modeling GPU microarchitecture using automated microbenchmarks",
+                        "Extending gem5-APU to support multiple GPUs"
                     ]
                 },
                 {
@@ -152,10 +134,7 @@
                     "years": "2017 - 2018",
                     "job_title": "Software Engineering Intern",
                     "projects": [
-                        {
-                            "title": "Pothole Detector",
-                            "detail": "Trained AI models to detect potholes from driveway videos"
-                        }
+                        "Training AI models to detect potholes from driveway videos"
                     ]
                 }
             ]
@@ -167,19 +146,19 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "Overseas PhD Scholarship, <i>Korea Foundation for Advanced Studies (KFAS)</i>",
+                    "title": "Overseas PhD Scholarship, Korea Foundation for Advanced Studies (KFAS)",
                     "years": "2023 - 2028"
                 },
                 {
-                    "title": "The Presidential Science Scholarship, <i>Korea Student Aid Foundation (KOSAF)</i>",
+                    "title": "The Presidential Science Scholarship, Korea Student Aid Foundation (KOSAF)",
                     "years": "2017 - 2023"
                 },
                 {
-                    "title": "Gold Medal, <i>International Physics Olympiad (IPhO)</i>",
+                    "title": "Gold Medal, International Physics Olympiad (IPhO)",
                     "years": "2016"
                 },
                 {
-                    "title": "Silver Prize, <i>Samsung Humantech Paper Award (for high school students)</i>",
+                    "title": "Silver Prize, Samsung Humantech Paper Award",
                     "years": "2016"
                 }
             ]
@@ -191,51 +170,51 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "title": "<i>Query Execution Engine</i> for OLAP Database Systems",
+                    "title": "Query execution engine for OLAP database systems",
                     "years": "Spring 2024"
                 },
                 {
-                    "title": "<i>Cache Simulator</i> for x64 binaries using pintool",
+                    "title": "Cache simulator for x64 binaries using pintool",
                     "years": "Fall 2023"
                 },
                 {
-                    "title": "<i>Linux Kernel Hacking</i> to impelement custom scheduler, lock, and file system",
+                    "title": "Linux kernel hacking to impelement custom scheduler, lock, and file system",
                     "years": "Spring 2022"
                 },
                 {
-                    "title": "<i>Compiler Frontend</i> for custom grammar rules using lex and yacc",
+                    "title": "Compiler frontend for custom grammar rules using lex and yacc",
                     "years": "Fall 2021"
                 },
                 {
-                    "title": "<i>CNN Accelerator</i> that can process conv, fc, and maxpool using Verilog and FPGA",
+                    "title": "CNN accelerator that can process conv, fc, and maxpool using Verilog and FPGA",
                     "years": "Fall 2021"
                 },
                 {
-                    "title": "<i>CPU Simulator</i> for pipelined CPU with branch predictor and cache using Verilog",
+                    "title": "CPU simulator for pipelined CPU with branch predictor and cache using Verilog",
                     "years": "Spring 2019"
                 },
                 {
-                    "title": "<i>IoT System</i> on the car fender that alarms the driver of safety incidents",
+                    "title": "IoT system on the car fender that alarms the driver of safety incidents",
                     "years": "2019"
                 },
                 {
-                    "title": "<i>IoT System</i> in the billiards ball that evaluates the cueing accuracy",
+                    "title": "IoT system in the billiards ball that evaluates the cueing accuracy",
                     "years": "2018"
                 },
                 {
-                    "title": "<i>3D Territory Game</i> that adds 3D graphics to the given game logic",
+                    "title": "3D territory game that adds 3D graphics to the given game logic",
                     "years": "Spring 2018"
                 },
                 {
-                    "title": "<i>Robotic Car</i> that follows the path and escape from the maze",
+                    "title": "Robotic car that follows the path and escape from the maze",
                     "years": "Fall 2017"
                 },
                 {
-                    "title": "<i>Robotic Arm</i> that mimics human arm movement",
+                    "title": "Robotic arm that mimics human arm movement",
                     "years": "2017"
                 },
                 {
-                    "title": "<i>Robotic Arm</i> using thermally-driven super-coiled-nylon artificial muscles",
+                    "title": "Robotic arm using thermally-driven super-coiled-nylon artificial muscles",
                     "years": "2015 - 2016"
                 }
             ]

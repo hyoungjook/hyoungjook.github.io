@@ -52,16 +52,8 @@
             width: 100%;
             height: 100%;
             text-align: center;
-            transition: transform 0.8s ease;
+            transition: transform 0.5s ease;
             transform-style: preserve-3d;
-        }
-
-        .profile-pic-outer:not(.flipped):hover .profile-pic-inner {
-            transform: rotateY(180deg);
-        }
-
-        .flipped .profile-pic-inner {
-            transform: rotateY(180deg);
         }
 
         .profile-pic-front, .profile-pic-back {
@@ -254,9 +246,12 @@
         document.getElementById('profile-pic').addEventListener('click', function(event) {
             const outer = document.querySelector('.profile-pic-outer');
             outer.classList.toggle('flipped');
+            const inner = document.querySelector('.profile-pic-inner');
             if (outer.classList.contains('flipped')) {
+                inner.style.transform = 'rotateY(180deg)';
                 updatePageContent(back_page_json);
             } else {
+                inner.style.transform = '';
                 updatePageContent(front_page_json);
             }
         });

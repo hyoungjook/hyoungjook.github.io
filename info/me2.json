@@ -1,0 +1,45 @@
+{
+    "sections": [
+        {
+            "title": "Outside of Research",
+            "format": "paragraph",
+            "show_in_html": true,
+            "show_in_cv": false,
+            "items": [
+                "When I get a little time away from work, I like traveling and exploring new places on Earth. Scenic nature views and unique tasty foods give me the energy to become productive again."
+            ]
+        },
+        {
+            "title": "Nature Explorations",
+            "format": "album",
+            "show_in_html": true,
+            "show_in_cv": false,
+            "items": [
+                {
+                    "photo": "info/pics/rainier.jpeg",
+                    "about": "Mount Rainier National Park<br>📍Washington"
+                },
+                {
+                    "photo": "info/pics/cuyahoga.jpeg",
+                    "about": "Cuyahoga Valley National Park<br>📍Ohio"
+                },
+                {
+                    "photo": "info/pics/rocky.jpeg",
+                    "about": "Rocky Mountain National Park<br>📍Colorado"
+                },
+                {
+                    "photo": "info/pics/yosemite.jpeg",
+                    "about": "Yosemite National Park<br>📍California"
+                },
+                {
+                    "photo": "info/pics/shenandoah.jpeg",
+                    "about": "Shenandoah National Park<br>📍Virginia"
+                },
+                {
+                    "photo": "info/pics/newriver.jpeg",
+                    "about": "New River Gorge National Park<br>📍West Virginia"
+                }
+            ]
+        }
+    ]
+}

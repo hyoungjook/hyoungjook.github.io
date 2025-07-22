@@ -60,6 +60,13 @@
             "show_in_cv": true,
             "items": [
                 {
+                    "authors": "Hyoungjoo Kim, Yiwei Zhao, Andrew Pavlo, Phillip B. Gibbons",
+                    "pub_title": "No Cap, This Memory Slaps: Breaking Through the Memory Wall of Transactional Database Systems with Processing-in-Memory",
+                    "pub_link": "https://www.vldb.org/pvldb/volumes/18",
+                    "journal": "Proceedings of the VLDB Endowment",
+                    "year": "2025"
+                },
+                {
                     "authors": "Taebum Kim, Hyoungjoo Kim, Gyeong-In Yu, Byung-Gon Chun",
                     "pub_title": "BPipe: Memory-Balanced Pipeline Parallelism for Training Large Language Models",
                     "pub_link": "https://proceedings.mlr.press/v202/kim23l.html",
@@ -87,9 +94,10 @@
                     "organization": "Microsoft",
                     "organization_link": "https://www.microsoft.com/en-us/research/",
                     "location": "Redmond, Washington",
-                    "years": "Summer 2024, Summer 2025",
+                    "years": "Summer 2024, 2025",
                     "job_title": "Research Intern",
                     "projects": [
+                        "(In Progress) Query processing on GPUs",
                         "Vector index for GPUs"
                     ]
                 },
@@ -102,7 +110,7 @@
                     "years": "2023 - Present",
                     "job_title": "Graduate Research Assistant",
                     "projects": [
-                        "OLTPim: (In Progress) Fast and efficient OLTP DBMS for Processing-in-Memory"
+                        "OLTPim: Fast and efficient OLTP on Processing-in-Memory (VLDB 2025)"
                     ]
                 },
                 {
@@ -112,7 +120,7 @@
                     "years": "2022 - 2023",
                     "job_title": "Research Intern",
                     "projects": [
-                        "BPipe: Accelerating the training of LLMs by rebalancing memory utilizations",
+                        "BPipe: Accelerating the training of LLMs by rebalancing memory utilizations (ICML 2023)",
                         "Optimizing GPU kernels for training LLMs"
                     ]
                 },
@@ -252,7 +260,7 @@
                     "title": "Computer Architecture and Simulation, GPUs, Machine Learning Systems, Memory Systems, Operating Systems, System Programming"
                 },
                 {
-                    "title": "Database Systems, Transaction Processing, Vector Indexes"
+                    "title": "Database Systems: Analytics, Transactions, Vector Indexes"
                 }
             ]
         }

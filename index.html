@@ -167,6 +167,36 @@
             background-color: #6aa84f;
         }
 
+        .header-switch {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-switch a {
+            display: block;
+            padding: 3px 6px;
+            font-size: 15px;
+            text-align: center;
+            background-color: #fff;
+            color: #7dbf6b;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .header-switch-divider {
+            width: 100%;
+            height: 2px;
+            background-color: #7dbf6b;
+            margin: 3px 0;
+        }
+
         .footnote {
             max-width: 800px;
             margin: 20px auto;
@@ -210,6 +240,18 @@
             text-align: center;
         }
 
+        .album-about a {
+            color: #555;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .album-about a:hover {
+            color: #7dbf6b;
+            font-weight: bold;
+        }
+
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -217,6 +259,11 @@
 <body>
     <div class="container">
         <header class="header">
+            <div class="header-switch">
+                <a id="switch-research">Research</a>
+                <div class="header-switch-divider"></div>
+                <a id="switch-life">Life</a>
+            </div>
             <div class="profile-pic-outer">
                 <div class="profile-pic-inner" id="profile-pic">
                     <div class="profile-pic-front">
@@ -243,19 +290,51 @@
         
         const front_page_json = 'info/me.json';
         const back_page_json = 'info/me2.json';
-        document.getElementById('profile-pic').addEventListener('click', function(event) {
-            const outer = document.querySelector('.profile-pic-outer');
-            outer.classList.toggle('flipped');
-            const inner = document.querySelector('.profile-pic-inner');
-            if (outer.classList.contains('flipped')) {
-                inner.style.transform = 'rotateY(180deg)';
-                updatePageContent(back_page_json);
-            } else {
-                inner.style.transform = '';
-                updatePageContent(front_page_json);
+        let toggled = true;
+        document.getElementById('switch-research').addEventListener('click', function(event) {
+            if (!toggled) {
+                toggled = true;
+                toggleSwitch(toggled);
             }
         });
-        updatePageContent(front_page_json);
+        document.getElementById('switch-life').addEventListener('click', function(event) {
+            if (toggled) {
+                toggled = false;
+                toggleSwitch(toggled);
+            }
+        });
+        document.getElementById('profile-pic').addEventListener('click', function(event){
+            toggled = !toggled;
+            toggleSwitch(toggled);
+        });
+        toggleSwitch(toggled);
+
+        function toggleSwitch(is_research) {
+            const inner = document.querySelector('.profile-pic-inner');
+            if (is_research) {
+                inner.style.transform = '';
+                updatePageContent(front_page_json);
+            } else {
+                inner.style.transform = 'rotateY(180deg)';
+                updatePageContent(back_page_json);
+            }
+            const WHITE = '#fff';
+            const GREEN = '#7dbf6b';
+            const sw_research = document.getElementById('switch-research');
+            const sw_life = document.getElementById('switch-life');
+            if (is_research) {
+                sw_research.style.color = WHITE;
+                sw_research.style.backgroundColor = GREEN;
+                sw_life.style.color = GREEN;
+                sw_life.style.backgroundColor = WHITE;
+            }
+            else {
+                sw_research.style.color = GREEN;
+                sw_research.style.backgroundColor = WHITE;
+                sw_life.style.color = WHITE;
+                sw_life.style.backgroundColor = GREEN;
+            }
+        }
         
         function updatePageContent(json_file) {
             document.getElementById('content').innerHTML = '';
@@ -367,7 +446,7 @@
                 itemElement.appendChild(photo);
                 const about = document.createElement('div');
                 about.classList.add('album-about');
-                about.innerHTML = item.about;
+                about.innerHTML = `<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=loc:${item.location}">📍${item.about1}</a><br>${item.about2}`;
                 itemElement.appendChild(about);
                 albumElement.appendChild(itemElement);
             })

@@ -17,27 +17,39 @@
             "items": [
                 {
                     "photo": "info/pics/rainier.jpeg",
-                    "about": "Mount Rainier National Park<br>📍Washington"
+                    "location": "46.7959472,-121.7357111",
+                    "about1": "Paradise",
+                    "about2": "Mount Rainier National Park"
                 },
                 {
                     "photo": "info/pics/cuyahoga.jpeg",
-                    "about": "Cuyahoga Valley National Park<br>📍Ohio"
+                    "location": "41.2200389,-81.5120389",
+                    "about1": "Ledges",
+                    "about2": "Cuyahoga Valley National Park"
                 },
                 {
                     "photo": "info/pics/rocky.jpeg",
-                    "about": "Rocky Mountain National Park<br>📍Colorado"
+                    "location": "40.3126056,-105.6591333",
+                    "about1": "Flattop",
+                    "about2": "Rocky Mountain National Park"
                 },
                 {
                     "photo": "info/pics/yosemite.jpeg",
-                    "about": "Yosemite National Park<br>📍California"
+                    "location": "37.7259472,-119.627525",
+                    "about1": "El Capitan",
+                    "about2": "Yosemite National Park"
                 },
                 {
                     "photo": "info/pics/shenandoah.jpeg",
-                    "about": "Shenandoah National Park<br>📍Virginia"
+                    "location": "38.5553444,-78.3951194",
+                    "about1": "Hawksbill",
+                    "about2": "Shenandoah National Park"
                 },
                 {
                     "photo": "info/pics/newriver.jpeg",
-                    "about": "New River Gorge National Park<br>📍West Virginia"
+                    "location": "37.830875,-81.0613333",
+                    "about1": "Grandview",
+                    "about2": "New River Gorge National Park"
                 }
             ]
         }

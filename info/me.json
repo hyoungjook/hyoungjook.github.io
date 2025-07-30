@@ -85,7 +85,7 @@
             ]
         },
         {
-            "title": "Research and Work Experiences",
+            "title": "Research and Work Experience",
             "format": "organization",
             "show_in_html": true,
             "show_in_cv": true,
@@ -232,7 +232,7 @@
             ]
         },
         {
-            "title": "Teaching Experiences",
+            "title": "Teaching Experience",
             "format": "simple",
             "show_in_html": true,
             "show_in_cv": true,

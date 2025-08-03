@@ -16,6 +16,12 @@
             "show_in_cv": false,
             "items": [
                 {
+                    "photo": "info/pics/cascades.jpeg",
+                    "location": "48.4676472,-121.0589833",
+                    "about1": "Cascade Pass",
+                    "about2": "North Cascades National Park"
+                },
+                {
                     "photo": "info/pics/olympic.jpeg",
                     "location": "47.7167861,-124.4191583",
                     "about1": "Ruby Beach",

@@ -62,14 +62,14 @@
                 {
                     "authors": "Hyoungjoo Kim, Yiwei Zhao, Andrew Pavlo, Phillip B. Gibbons",
                     "pub_title": "No Cap, This Memory Slaps: Breaking Through the Memory Wall of Transactional Database Systems with Processing-in-Memory",
-                    "pub_link": "https://www.vldb.org/pvldb/volumes/18",
+                    "pub_link": "https://www.vldb.org/pvldb/vol18/p4241-kim.pdf",
                     "journal": "Proceedings of the VLDB Endowment",
                     "year": "2025"
                 },
                 {
                     "authors": "Taebum Kim, Hyoungjoo Kim, Gyeong-In Yu, Byung-Gon Chun",
                     "pub_title": "BPipe: Memory-Balanced Pipeline Parallelism for Training Large Language Models",
-                    "pub_link": "https://proceedings.mlr.press/v202/kim23l.html",
+                    "pub_link": "https://proceedings.mlr.press/v202/kim23l/kim23l.pdf",
                     "journal": "International Conference on Machine Learning (ICML)",
                     "year": "2023",
                     "etc": "Oral Presentation"
@@ -91,17 +91,6 @@
             "show_in_cv": true,
             "items": [
                 {
-                    "organization": "Microsoft",
-                    "organization_link": "https://www.microsoft.com/en-us/research/",
-                    "location": "Redmond, Washington",
-                    "years": "Summer 2024, 2025",
-                    "job_title": "Research Intern",
-                    "projects": [
-                        "(In Progress) Query processing on GPUs",
-                        "Vector index for GPUs"
-                    ]
-                },
-                {
                     "organization": "Parallel Data Lab",
                     "organization_link": "https://pdl.cmu.edu/index.shtml",
                     "organization2": "CMU Database Group",
@@ -111,6 +100,17 @@
                     "job_title": "Graduate Research Assistant",
                     "projects": [
                         "OLTPim: Fast and efficient OLTP on Processing-in-Memory (VLDB 2025)"
+                    ]
+                },
+                {
+                    "organization": "Microsoft",
+                    "organization_link": "https://www.microsoft.com/en-us/research/",
+                    "location": "Redmond, Washington",
+                    "years": "Summer 2024, 2025",
+                    "job_title": "Research Intern",
+                    "projects": [
+                        "Query processing on GPUs",
+                        "Vector index for GPUs"
                     ]
                 },
                 {

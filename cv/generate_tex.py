@@ -57,6 +57,10 @@ def generate_publication_section(section):
             '\\textit{' + item['journal'] + '}, ' + item['year']
         if 'etc' in item:
             latex_content += ' (' + _rhs(item['etc']) + ')'
+        if 'slides' in item:
+            latex_content += ' \\href{' + item['slides'] + '}{[Slides]}'
+        if 'poster' in item:
+            latex_content += ' \\href{' + item['poster'] + '}{[Poster]}'
         latex_content += '}\n'
     latex_content += '\\resumeSubHeadingListEnd\n'
     return latex_content

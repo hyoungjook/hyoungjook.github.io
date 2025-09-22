@@ -64,7 +64,9 @@
                     "pub_title": "No Cap, This Memory Slaps: Breaking Through the Memory Wall of Transactional Database Systems with Processing-in-Memory",
                     "pub_link": "https://www.vldb.org/pvldb/vol18/p4241-kim.pdf",
                     "journal": "Proceedings of the VLDB Endowment",
-                    "year": "2025"
+                    "year": "2025",
+                    "slides": "https://github.com/hyoungjook/OLTPim/blob/master/pdfs/slides.pdf",
+                    "poster": "https://github.com/hyoungjook/OLTPim/blob/master/pdfs/poster.pdf"
                 },
                 {
                     "authors": "Taebum Kim, Hyoungjoo Kim, Gyeong-In Yu, Byung-Gon Chun",

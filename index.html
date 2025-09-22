@@ -414,6 +414,12 @@
                 if (item.etc) {
                     itemElement.innerHTML += ` (${item.etc})`;
                 }
+                if (item.slides) {
+                    itemElement.innerHTML += ` <a href=${item.slides}>[Slides]</a>`;
+                }
+                if (item.poster) {
+                    itemElement.innerHTML += ` <a href=${item.poster}>[Poster]</a>`;
+                }
                 sectionElement.appendChild(itemElement);
             })
         }

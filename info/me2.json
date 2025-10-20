@@ -16,6 +16,30 @@
             "show_in_cv": false,
             "items": [
                 {
+                    "photo": "info/pics/acadia.jpg",
+                    "location": "44.3327111,-68.1879278",
+                    "about1": "Beehive",
+                    "about2": "Acadia National Park"
+                },
+                {
+                    "photo": "info/pics/grandteton.jpg",
+                    "location": "43.8570028,-110.589675",
+                    "about1": "Jackson Lake",
+                    "about2": "Grand Teton National Park"
+                },
+                {
+                    "photo": "info/pics/yellowstone.jpg",
+                    "location": "44.459625,-110.8282167",
+                    "about1": "Old Faithful",
+                    "about2": "Yellowstone National Park"
+                },
+                {
+                    "photo": "info/pics/southdowns.jpeg",
+                    "location": "50.7417028,0.2024944",
+                    "about1": "Seven Sisters",
+                    "about2": "South Downs National Park"
+                },
+                {
                     "photo": "info/pics/cascades.jpeg",
                     "location": "48.4676472,-121.0589833",
                     "about1": "Cascade Pass",
@@ -36,7 +60,7 @@
                 {
                     "photo": "info/pics/shenandoah.jpeg",
                     "location": "38.5553444,-78.3951194",
-                    "about1": "Hawksbill Summit",
+                    "about1": "Hawksbill",
                     "about2": "Shenandoah National Park"
                 },
                 {

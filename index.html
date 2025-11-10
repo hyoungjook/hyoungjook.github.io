@@ -420,6 +420,9 @@
                 if (item.poster) {
                     itemElement.innerHTML += ` <a href=${item.poster}>[Poster]</a>`;
                 }
+                if (item.blog) {
+                    itemElement.innerHTML += ` <a href=${item.blog}>[Blog]</a>`;
+                }
                 sectionElement.appendChild(itemElement);
             })
         }

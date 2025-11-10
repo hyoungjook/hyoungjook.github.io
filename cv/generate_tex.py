@@ -61,6 +61,8 @@ def generate_publication_section(section):
             latex_content += ' \\href{' + item['slides'] + '}{[Slides]}'
         if 'poster' in item:
             latex_content += ' \\href{' + item['poster'] + '}{[Poster]}'
+        if 'blog' in item:
+            latex_content += ' \\href{' + item['blog'] + '}{[Blog]}'
         latex_content += '}\n'
     latex_content += '\\resumeSubHeadingListEnd\n'
     return latex_content

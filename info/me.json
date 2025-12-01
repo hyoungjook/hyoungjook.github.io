@@ -47,8 +47,8 @@
                     "workedwith": "Byung-Gon Chun",
                     "workedwith_link": "https://bgchun.github.io/",
                     "details": [
-                        "GPA: 4.28/4.3 (2nd/148)",
-                        "{\\small The period includes two years of mandatory military service in South Korea.}"
+                        "GPA: 4.28/4.3 (Summa Cum Laude)",
+                        "{\\footnotesize The period includes two years of mandatory military service in South Korea.}"
                     ]
                 }
             ]
@@ -92,7 +92,7 @@
                     "years": "Summer 2024, 2025",
                     "job_title": "Research Intern",
                     "projects": [
-                        "Analytic query processing on GPUs (\\textbf{Being merged to product SQL Server})",
+                        "Analytic query processing on GPUs \\textit{(My work is being merged to product SQL Server)}",
                         "Vector index for GPUs"
                     ]
                 },
@@ -105,7 +105,7 @@
                     "years": "2023 - Present",
                     "job_title": "Graduate Research Assistant",
                     "projects": [
-                        "OLTPim: Fast and efficient OLTP on Processing-in-Memory (\\textbf{VLDB 2025})"
+                        "OLTPim: Fast and efficient OLTP on Processing-in-Memory \\textit{(VLDB 2025)}"
                     ]
                 },
                 {
@@ -115,7 +115,7 @@
                     "years": "2022 - 2023",
                     "job_title": "Research Intern",
                     "projects": [
-                        "BPipe: Accelerating LLM training by rebalancing memory utilizations (\\textbf{ICML 2023})",
+                        "BPipe: Accelerating LLM training by rebalancing memory utilizations \\textit{(ICML 2023)}",
                         "Optimizing GPU kernels for training LLMs"
                     ]
                 },

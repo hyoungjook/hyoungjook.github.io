@@ -92,7 +92,7 @@
                     "years": "Summer 2024, 2025",
                     "job_title": "Research Intern",
                     "projects": [
-                        "Analytic query processing on GPUs \\textit{(My work is being merged to product SQL Server)}",
+                        "Analytic query processing on GPUs",
                         "Vector index for GPUs"
                     ]
                 },
@@ -115,8 +115,7 @@
                     "years": "2022 - 2023",
                     "job_title": "Research Intern",
                     "projects": [
-                        "BPipe: Accelerating LLM training by rebalancing memory utilizations \\textit{(ICML 2023)}",
-                        "Optimizing GPU kernels for training LLMs"
+                        "BPipe: Accelerating LLM training by rebalancing memory utilizations \\textit{(ICML 2023)}"
                     ]
                 },
                 {
@@ -126,8 +125,7 @@
                     "years": "2021",
                     "job_title": "Undergraduate Intern",
                     "projects": [
-                        "GPUDiag: Modeling GPU microarchitecture using automated microbenchmarks \\href{https://github.com/hyoungjook/gpudiag/blob/master/documents/paper.pdf}{[Report]}",
-                        "Extending gem5-APU to support multiple GPUs"
+                        "GPUDiag: Modeling GPU microarchitecture using automated microbenchmarks \\href{https://github.com/hyoungjook/gpudiag/blob/master/documents/paper.pdf}{[Report]}"
                     ]
                 },
                 {

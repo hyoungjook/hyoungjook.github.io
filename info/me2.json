@@ -16,76 +16,74 @@
             "show_in_cv": false,
             "items": [
                 {
+                    "photo": "info/pics/bruce.jpg",
+                    "location": "45.2450028,-81.5234222",
+                    "about": "Bruce Peninsula National Park"
+                },
+                {
+                    "photo": "info/pics/niagara.jpg",
+                    "location": "43.0823444,-79.0776667",
+                    "about": "Niagara Falls"
+                },
+                {
                     "photo": "info/pics/acadia.jpg",
                     "location": "44.3327111,-68.1879278",
-                    "about1": "Beehive",
-                    "about2": "Acadia National Park"
+                    "about": "Acadia National Park"
                 },
                 {
                     "photo": "info/pics/grandteton.jpg",
                     "location": "43.8570028,-110.589675",
-                    "about1": "Jackson Lake",
-                    "about2": "Grand Teton National Park"
+                    "about": "Grand Teton National Park"
                 },
                 {
                     "photo": "info/pics/yellowstone.jpg",
                     "location": "44.459625,-110.8282167",
-                    "about1": "Old Faithful",
-                    "about2": "Yellowstone National Park"
+                    "about": "Yellowstone National Park"
                 },
                 {
                     "photo": "info/pics/southdowns.jpeg",
                     "location": "50.7417028,0.2024944",
-                    "about1": "Seven Sisters",
-                    "about2": "South Downs National Park"
+                    "about": "South Downs National Park"
                 },
                 {
                     "photo": "info/pics/cascades.jpeg",
                     "location": "48.4676472,-121.0589833",
-                    "about1": "Cascade Pass",
-                    "about2": "North Cascades National Park"
+                    "about": "North Cascades National Park"
                 },
                 {
                     "photo": "info/pics/olympic.jpeg",
                     "location": "47.7167861,-124.4191583",
-                    "about1": "Ruby Beach",
-                    "about2": "Olympic National Park"
+                    "about": "Olympic National Park"
                 },
                 {
                     "photo": "info/pics/newriver.jpeg",
                     "location": "37.830875,-81.0613333",
-                    "about1": "Grandview",
-                    "about2": "New River Gorge National Park"
+                    "about": "New River Gorge National Park"
                 },
                 {
                     "photo": "info/pics/shenandoah.jpeg",
                     "location": "38.5553444,-78.3951194",
-                    "about1": "Hawksbill",
-                    "about2": "Shenandoah National Park"
+                    "about": "Shenandoah National Park"
                 },
                 {
                     "photo": "info/pics/yosemite.jpeg",
                     "location": "37.7259472,-119.627525",
-                    "about1": "El Capitan",
-                    "about2": "Yosemite National Park"
+                    "about": "Yosemite National Park"
                 },
                 {
                     "photo": "info/pics/rocky.jpeg",
                     "location": "40.3126056,-105.6591333",
-                    "about1": "Flattop Mountain",
-                    "about2": "Rocky Mountain National Park"
+                    "about": "Rocky Mountain National Park"
                 },
                 {
                     "photo": "info/pics/cuyahoga.jpeg",
                     "location": "41.2200389,-81.5120389",
-                    "about1": "Ledges",
-                    "about2": "Cuyahoga Valley National Park"
+                    "about": "Cuyahoga Valley National Park"
                 },
                 {
                     "photo": "info/pics/rainier.jpeg",
                     "location": "46.7959472,-121.7357111",
-                    "about1": "Paradise",
-                    "about2": "Mount Rainier National Park"
+                    "about": "Mount Rainier National Park"
                 }
             ]
         }

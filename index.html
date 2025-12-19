@@ -453,7 +453,7 @@
                 itemElement.appendChild(photo);
                 const about = document.createElement('div');
                 about.classList.add('album-about');
-                about.innerHTML = `<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?q=loc:${item.location}">📍${item.about}</a>`;
+                about.innerHTML = `<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=${item.location}">📍${item.about}</a>`;
                 itemElement.appendChild(about);
                 albumElement.appendChild(itemElement);
             })

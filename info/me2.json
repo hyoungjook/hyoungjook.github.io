@@ -16,6 +16,11 @@
             "show_in_cv": false,
             "items": [
                 {
+                    "photo": "info/pics/sequoia.jpg",
+                    "location": "36.5815278,-118.7515417",
+                    "about": "Sequoia National Park"
+                },
+                {
                     "photo": "info/pics/bruce.jpg",
                     "location": "45.2450028,-81.5234222",
                     "about": "Bruce Peninsula National Park"

@@ -1,0 +1,111 @@
+{
+    "sections": [
+        {
+            "title": "Outside of Research",
+            "format": "paragraph",
+            "show_in_html": true,
+            "show_in_cv": false,
+            "items": [
+                "When I get a little time away from work, I like traveling and exploring new places on Earth. Scenic nature views and unique tasty foods give me the energy to become productive again."
+            ]
+        },
+        {
+            "title": "Nature Explorations",
+            "format": "album",
+            "show_in_html": true,
+            "show_in_cv": false,
+            "items": [
+                {
+                    "photo": "info/pics/biscayne.jpeg",
+                    "location": "25.5315806,-80.3181139",
+                    "about": "Biscayne National Park"
+                },
+                {
+                    "photo": "info/pics/everglades.jpeg",
+                    "location": "25.4347694,-80.7808222",
+                    "about": "Everglades National Park"
+                },
+                {
+                    "photo": "info/pics/greatsmoky.jpeg",
+                    "location": "35.6384,-83.3722",
+                    "about": "Great Smoky Mountains National Park"
+                },
+                {
+                    "photo": "info/pics/sequoia.jpeg",
+                    "location": "36.7479861,-118.9713528",
+                    "about": "Sequoia & Kings Canyon National Park"
+                },
+                {
+                    "photo": "info/pics/bruce.jpeg",
+                    "location": "45.2450028,-81.5234222",
+                    "about": "Bruce Peninsula National Park"
+                },
+                {
+                    "photo": "info/pics/acadia.jpeg",
+                    "location": "44.3327111,-68.1879278",
+                    "about": "Acadia National Park"
+                },
+                {
+                    "photo": "info/pics/grandteton.jpeg",
+                    "location": "43.8570028,-110.589675",
+                    "about": "Grand Teton National Park"
+                },
+                {
+                    "photo": "info/pics/yellowstone.jpeg",
+                    "location": "44.5265111,-110.8386694",
+                    "about": "Yellowstone National Park"
+                },
+                {
+                    "photo": "info/pics/southdowns.jpeg",
+                    "location": "50.7417028,0.2024944",
+                    "about": "South Downs National Park"
+                },
+                {
+                    "photo": "info/pics/northcascades.jpeg",
+                    "location": "48.4676472,-121.0589833",
+                    "about": "North Cascades National Park"
+                },
+                {
+                    "photo": "info/pics/olympic.jpeg",
+                    "location": "47.7167861,-124.4191583",
+                    "about": "Olympic National Park"
+                },
+                {
+                    "photo": "info/pics/helens.jpeg",
+                    "location": "46.2726833,-122.2329722",
+                    "about": "Mount St Helens National Monument"
+                },
+                {
+                    "photo": "info/pics/newriver.jpeg",
+                    "location": "37.830875,-81.0613333",
+                    "about": "New River Gorge National Park"
+                },
+                {
+                    "photo": "info/pics/shenandoah.jpeg",
+                    "location": "38.5553444,-78.3951194",
+                    "about": "Shenandoah National Park"
+                },
+                {
+                    "photo": "info/pics/yosemite.jpeg",
+                    "location": "37.7259472,-119.627525",
+                    "about": "Yosemite National Park"
+                },
+                {
+                    "photo": "info/pics/rocky.jpeg",
+                    "location": "40.3126194,-105.6467583",
+                    "about": "Rocky Mountain National Park"
+                },
+                {
+                    "photo": "info/pics/cuyahoga.jpeg",
+                    "location": "41.2200389,-81.5120389",
+                    "about": "Cuyahoga Valley National Park"
+                },
+                {
+                    "photo": "info/pics/rainier.jpeg",
+                    "location": "46.7959472,-121.7357111",
+                    "about": "Mount Rainier National Park"
+                }
+            ]
+        }
+    ]
+}

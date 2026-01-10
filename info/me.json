@@ -1,0 +1,250 @@
+{
+    "sections": [
+        {
+            "title": "About Me",
+            "format": "paragraph",
+            "show_in_html": true,
+            "show_in_cv": false,
+            "items": [
+                "Hi! I'm a third-year PhD student in the Computer Science Department at Carnegie Mellon University, advised by <a href=\"https://www.cs.cmu.edu/~gibbons/\"><i>Phil Gibbons</i></a> and closely working with <a href=\"https://www.cs.cmu.edu/~pavlo/\"><i>Andy Pavlo</i></a>. I am interested in designing <strong>Database Systems</strong> for <strong>Hardware Accelerators</strong> (<strong>PIM</strong>, <strong>GPU</strong>, <strong>CXL</strong>, ...). Before coming to CMU, I did my undergraduate at Seoul National University and worked on Machine Learning Systems."
+            ]
+        },
+        {
+            "title": "Research Interests",
+            "format": "paragraph",
+            "show_in_html": false,
+            "show_in_cv": true,
+            "items": [
+                "My research designs <strong>Database Systems</strong> for <strong>Hardware Accelerators</strong> (<strong>PIM</strong>, <strong>GPU</strong>, <strong>CXL</strong>, ...).",
+                "In general, I am interested in using the Accelerators to re-design Data-Intensive Software Systems."
+            ]
+        },
+        {
+            "title": "Education",
+            "format": "organization",
+            "show_in_html": true,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "organization": "Carnegie Mellon University",
+                    "organization_link": "https://csd.cmu.edu",
+                    "location": "Pittsburgh, Pennsylvania",
+                    "years": "2023 - Present",
+                    "job_title": "Ph.D. Student in Computer Science",
+                    "advisor": "Phillip B. Gibbons",
+                    "advisor_link": "https://www.cs.cmu.edu/~gibbons/",
+                    "workedwith": "Andrew Pavlo",
+                    "workedwith_link": "https://www.cs.cmu.edu/~pavlo/"
+                },
+                {
+                    "organization": "Seoul National University",
+                    "organization_link": "https://ee.snu.ac.kr/en",
+                    "location": "Seoul, Korea",
+                    "years": "2017 - 2023",
+                    "job_title": "B.S. in Electrical and Computer Engineering",
+                    "advisor": "Jangwoo Kim",
+                    "advisor_link": "https://hpcs.snu.ac.kr/~jangwoo/",
+                    "workedwith": "Byung-Gon Chun",
+                    "workedwith_link": "https://bgchun.github.io/",
+                    "details": [
+                        "GPA: 4.28/4.3 (Summa Cum Laude)",
+                        "{\\footnotesize The period includes two years of mandatory military service in South Korea.}"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Publications",
+            "format": "publication",
+            "show_in_html": true,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "authors": "Hyoungjoo Kim, Yiwei Zhao, Andrew Pavlo, Phillip B. Gibbons",
+                    "pub_title": "No Cap, This Memory Slaps: Breaking Through the Memory Wall of Transactional Database Systems with Processing-in-Memory",
+                    "pub_link": "https://www.vldb.org/pvldb/vol18/p4241-kim.pdf",
+                    "journal": "Proceedings of the VLDB Endowment",
+                    "year": "2025",
+                    "slides": "https://github.com/hyoungjook/OLTPim/blob/master/pdfs/slides.pdf",
+                    "poster": "https://github.com/hyoungjook/OLTPim/blob/master/pdfs/poster.pdf",
+                    "blog": "https://www.cs.cmu.edu/~csd-phd-blog/2025/breaking-transaction-pim/"
+                },
+                {
+                    "authors": "Taebum Kim, Hyoungjoo Kim, Gyeong-In Yu, Byung-Gon Chun",
+                    "pub_title": "BPipe: Memory-Balanced Pipeline Parallelism for Training Large Language Models",
+                    "pub_link": "https://proceedings.mlr.press/v202/kim23l/kim23l.pdf",
+                    "journal": "International Conference on Machine Learning (ICML)",
+                    "year": "2023",
+                    "etc": "Oral Presentation"
+                }
+            ]
+        },
+        {
+            "title": "Research and Work Experience",
+            "format": "organization",
+            "show_in_html": true,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "organization": "Microsoft",
+                    "organization_link": "https://www.microsoft.com/en-us/research/",
+                    "location": "Redmond, Washington",
+                    "years": "Summer 2024, 2025",
+                    "job_title": "Research Intern",
+                    "projects": [
+                        "Analytic query processing on GPUs",
+                        "Vector index for GPUs"
+                    ]
+                },
+                {
+                    "organization": "Parallel Data Lab",
+                    "organization_link": "https://pdl.cmu.edu/index.shtml",
+                    "organization2": "CMU Database Group",
+                    "organization2_link": "https://db.cs.cmu.edu/",
+                    "location": "Pittsburgh, Pennsylvania",
+                    "years": "2023 - Present",
+                    "job_title": "Graduate Research Assistant",
+                    "projects": [
+                        "OLTPim: Fast and efficient OLTP on Processing-in-Memory \\textit{(VLDB 2025)}"
+                    ]
+                },
+                {
+                    "organization": "FriendliAI",
+                    "organization_link": "https://friendli.ai/",
+                    "location": "Seoul, Korea",
+                    "years": "2022 - 2023",
+                    "job_title": "Research Intern",
+                    "projects": [
+                        "BPipe: Accelerating LLM training by rebalancing memory utilizations \\textit{(ICML 2023)}"
+                    ]
+                },
+                {
+                    "organization": "High Performance Computer System Lab",
+                    "organization_link": "https://hpcs.snu.ac.kr/",
+                    "location": "Seoul, Korea",
+                    "years": "2021",
+                    "job_title": "Undergraduate Intern",
+                    "projects": [
+                        "GPUDiag: Modeling GPU microarchitecture using automated microbenchmarks \\href{https://github.com/hyoungjook/gpudiag/blob/master/documents/paper.pdf}{[Report]}"
+                    ]
+                },
+                {
+                    "organization": "Geolux",
+                    "organization_link": "https://www.geolux.co.kr/en/",
+                    "location": "Seoul, Korea",
+                    "years": "2017 - 2018",
+                    "job_title": "Software Engineering Intern",
+                    "projects": [
+                        "Training AI models to detect potholes from driveway videos"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Honors and Awards",
+            "format": "simple",
+            "show_in_html": true,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "title": "Northrop Grumman Fellowship - Computer Science",
+                    "years": "2024 - 2025"
+                },
+                {
+                    "title": "Overseas PhD Scholarship, Korea Foundation for Advanced Studies (KFAS)",
+                    "years": "2023 - 2028"
+                },
+                {
+                    "title": "Summa Cum Laude, College of Engineering at Seoul National University",
+                    "years": "2023"
+                },
+                {
+                    "title": "The Presidential Science Scholarship, Korea Student Aid Foundation (KOSAF)",
+                    "years": "2017 - 2023"
+                },
+                {
+                    "title": "Gold Medal, International Physics Olympiad (IPhO)",
+                    "years": "2016"
+                },
+                {
+                    "title": "Silver Prize, Samsung Humantech Paper Award",
+                    "years": "2016"
+                }
+            ]
+        },
+        {
+            "title": "Intra- and Extracurricular Projects",
+            "format": "simple",
+            "show_in_html": false,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "title": "Query execution engine for OLAP database systems",
+                    "years": "Spring 2024"
+                },
+                {
+                    "title": "Cache simulator for x64 binaries using pintool",
+                    "years": "Fall 2023"
+                },
+                {
+                    "title": "Linux kernel hacking to impelement custom scheduler, lock, and file system",
+                    "years": "Spring 2022"
+                },
+                {
+                    "title": "Compiler frontend for custom grammar rules using lex and yacc",
+                    "years": "Fall 2021"
+                },
+                {
+                    "title": "CNN accelerator that can process conv, fc, and maxpool using Verilog and FPGA",
+                    "years": "Fall 2021"
+                },
+                {
+                    "title": "IoT system in the billiards ball that evaluates the cueing accuracy",
+                    "years": "2018"
+                },
+                {
+                    "title": "3D territory game that adds 3D graphics to the given game logic",
+                    "years": "Spring 2018"
+                },
+                {
+                    "title": "Robotic arm that mimics human arm movement",
+                    "years": "2017"
+                },
+                {
+                    "title": "Robotic arm using thermally-driven super-coiled-nylon artificial muscles",
+                    "years": "2015 - 2016"
+                }
+            ]
+        },
+        {
+            "title": "Teaching Experience",
+            "format": "simple",
+            "show_in_html": true,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "title": "Teaching Assistant, 15-445 \"Intro Database Systems\", Carnegie Mellon University",
+                    "years": "Spring 2025"
+                },
+                {
+                    "title": "Teaching Assistant, \"Operating Systems\", Seoul National University",
+                    "years": "Spring 2023"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "format": "simple",
+            "show_in_html": false,
+            "show_in_cv": true,
+            "items": [
+                {
+                    "title": "C, C++, Python, CUDA, Verilog, Linux Kernel, SQL, PyTorch, ZSim"
+                },
+                {
+                    "title": "Computer Architecture, Database Systems, High-Performance Computing, Machine Learning Systems, Operating Systems"
+                }
+            ]
+        }
+    ]
+}

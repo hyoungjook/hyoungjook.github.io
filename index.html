@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyoungjoo Kim</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            margin-bottom: 0px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s ease;
+            cursor: pointer;
+        }
+
+        .profile-pic-outer {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .profile-pic-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.5s ease;
+            transform-style: preserve-3d;
+        }
+
+        .profile-pic-front, .profile-pic-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .profile-pic-back {
+            transform: rotateY(180deg);
+        }
+
+        h1 {
+            width: fit-content;
+            margin: auto;
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #333;
+            transition: transform 0.3s ease;
+        }
+
+        p.subtitle {
+            width: fit-content;
+            margin: auto;
+            font-family: 'Mulish', sans-serif;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #777;
+            transition: transform 0.3s ease;
+        }
+
+        .content {
+            width: 100%;
+            height: fit-content;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 15px;
+            text-indent: 10px;
+            color: #333;
+            position: relative;
+            padding-bottom: 5px;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #7dbf6b;
+        }
+
+        .section p {
+            font-family: 'Mulish', sans-serif;
+            line-height: 1.6;
+            font-size: 15px;
+            color: #555;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .section p a {
+            color: #555;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .section p a:hover {
+            color: #7dbf6b;
+        }
+
+        .section p span {
+            float: right;
+            color: #777;
+        }
+
+        .header-icons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .header-icons a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #7dbf6b;
+            color: #fff;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .header-icons a:hover {
+            background-color: #6aa84f;
+        }
+
+        .header-switch {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-switch a {
+            display: block;
+            padding: 5px 10px;
+            font-size: 20px;
+            text-align: center;
+            background-color: #fff;
+            color: #7dbf6b;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .header-switch-divider {
+            width: 2px;
+            height: 20px;
+            background-color: #7dbf6b;
+            margin: 0 10px;
+        }
+
+        .footnote {
+            max-width: 800px;
+            margin: 20px auto;
+            font-family: 'Merriweather', serif;
+            font-size: 12px;
+            color: #555;
+            text-align: right;
+        }
+
+        .album {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .album-item {
+            width: fit-content;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+        }
+
+        .album-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 10%;
+            margin-bottom: 0px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .album-about {
+            width: 300px;
+            height: fit-content;
+            font-family: 'Mulish', sans-serif;
+            font-size: 15px;
+            color: #555;
+            text-align: center;
+        }
+
+        .album-about a {
+            color: #555;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .album-about a:hover {
+            color: #7dbf6b;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-pic-outer">
+                <div class="profile-pic-inner" id="profile-pic">
+                    <div class="profile-pic-front">
+                        <img class="profile-pic" src="info/photo.jpg">
+                    </div>
+                    <div class="profile-pic-back">
+                        <img class="profile-pic" src="info/photo2.jpeg">
+                    </div>
+                </div>
+            </div>
+            <h1>Hyoungjoo Kim</h1>
+            <p class="subtitle">PhD Student in Computer Science</p>
+            <div class="header-switch">
+                <a id="switch-research">Research</a>
+                <div class="header-switch-divider"></div>
+                <a id="switch-life">Life</a>
+            </div>
+            <div class="header-icons">
+                <a href="cv/hyoungjookim.pdf"><strong>CV</strong></a>
+                <a href="https://scholar.google.com/citations?user=sYhlQ1YAAAAJ&hl=en"><i class="fa-brands fa-google-scholar"></i></a>
+                <a href="https://github.com/hyoungjook"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hyoungjoo-kim-546986194"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </header>
+        <div class="content" id="content"></div>
+    </div>
+
+    <script>
+        
+        const front_page_json = 'info/me.json';
+        const back_page_json = 'info/me2.json';
+        let toggled = true;
+        document.getElementById('switch-research').addEventListener('click', function(event) {
+            if (!toggled) {
+                toggled = true;
+                toggleSwitch(toggled);
+            }
+        });
+        document.getElementById('switch-life').addEventListener('click', function(event) {
+            if (toggled) {
+                toggled = false;
+                toggleSwitch(toggled);
+            }
+        });
+        document.getElementById('profile-pic').addEventListener('click', function(event){
+            toggled = !toggled;
+            toggleSwitch(toggled);
+        });
+        toggleSwitch(toggled);
+
+        function toggleSwitch(is_research) {
+            const inner = document.querySelector('.profile-pic-inner');
+            if (is_research) {
+                inner.style.transform = '';
+                updatePageContent(front_page_json);
+            } else {
+                inner.style.transform = 'rotateY(180deg)';
+                updatePageContent(back_page_json);
+            }
+            const WHITE = '#fff';
+            const GREEN = '#7dbf6b';
+            const sw_research = document.getElementById('switch-research');
+            const sw_life = document.getElementById('switch-life');
+            if (is_research) {
+                sw_research.style.color = WHITE;
+                sw_research.style.backgroundColor = GREEN;
+                sw_life.style.color = GREEN;
+                sw_life.style.backgroundColor = WHITE;
+            }
+            else {
+                sw_research.style.color = GREEN;
+                sw_research.style.backgroundColor = WHITE;
+                sw_life.style.color = WHITE;
+                sw_life.style.backgroundColor = GREEN;
+            }
+        }
+        
+        function updatePageContent(json_file) {
+            document.getElementById('content').innerHTML = '';
+            fetch(json_file)
+                .then(response => response.json())
+                .then(data => {
+                    generateSections(data.sections);
+                })
+                .catch(error => console.error('Error fetching json:', error));
+        }
+        
+        function generateSections(sections) {
+            sections.forEach(section => {
+                if (!section.show_in_html) {
+                    return;
+                }
+
+                const sectionElement = document.createElement('section');
+                sectionElement.classList.add('section');
+
+                const titleElement = document.createElement('h2');
+                titleElement.textContent = section.title;
+                sectionElement.appendChild(titleElement);
+
+                const format = section.format;
+                switch (format) {
+                    case 'paragraph':
+                        generateParagraphSection(sectionElement, section.items);
+                        break;
+                    case 'organization':
+                        generateOrganizationSection(sectionElement, section.items);
+                        break;
+                    case 'publication':
+                        generatePublicationSection(sectionElement, section.items);
+                        break;
+                    case 'simple':
+                        generateSimpleSection(sectionElement, section.items);
+                        break;
+                    case 'album':
+                        generateAlbumSection(sectionElement, section.items);
+                        break;
+                    default:
+                        console.error('Error parsing json format');
+                }
+
+                document.getElementById('content').appendChild(sectionElement);
+            });
+        }
+
+        function generateParagraphSection(sectionElement, items) {
+            items.forEach(item => {
+                const itemElement = document.createElement('p');
+                itemElement.innerHTML = item;
+                sectionElement.appendChild(itemElement);
+            })
+        }
+
+        function generateOrganizationSection(sectionElement, items) {
+            items.forEach(item => {
+                const itemElement = document.createElement('p');
+                itemElement.innerHTML = `<a href=${item.organization_link}><strong>${item.organization}</strong></a>`
+                if (item.organization2) {
+                    itemElement.innerHTML += ` & <a href=${item.organization2_link}><strong>${item.organization2}</strong></a>`
+                }
+                itemElement.innerHTML += ` <span><i>${item.years}</i></span>`;
+                if (item.job_title) {
+                    itemElement.innerHTML += `<br>${item.job_title}`;
+                }
+                if (item.details) {
+                    itemElement.innerHTML += `<br>${item.details[0]}`;
+                }
+                sectionElement.appendChild(itemElement);
+            })
+        }
+
+        function generatePublicationSection(sectionElement, items) {
+            items.forEach(item => {
+                const itemElement = document.createElement('p');
+                itemElement.innerHTML = `${item.authors}<br><a href=${item.pub_link}><strong>${item.pub_title}</strong></a><br>` +
+                                        `<i>${item.journal}</i>, ${item.year}`;
+                if (item.etc) {
+                    itemElement.innerHTML += ` (${item.etc})`;
+                }
+                if (item.slides) {
+                    itemElement.innerHTML += ` <a href=${item.slides}>[Slides]</a>`;
+                }
+                if (item.poster) {
+                    itemElement.innerHTML += ` <a href=${item.poster}>[Poster]</a>`;
+                }
+                if (item.blog) {
+                    itemElement.innerHTML += ` <a href=${item.blog}>[Blog]</a>`;
+                }
+                sectionElement.appendChild(itemElement);
+            })
+        }
+
+        function generateSimpleSection(sectionElement, items) {
+            items.forEach(item => {
+                const itemElement = document.createElement('p');
+                if (item.years) {
+                    itemElement.innerHTML = `${item.title} <span><i>${item.years}</i></span>`
+                }
+                else {
+                    itemElement.innerHTML = `${item.title}`;
+                }
+                sectionElement.appendChild(itemElement);
+            })
+        }
+
+        function generateAlbumSection(sectionElement, items) {
+            const albumElement = document.createElement('div');
+            albumElement.classList.add('album');
+            items.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('album-item');
+                const photo = document.createElement('img');
+                photo.classList.add('album-photo')
+                photo.src = item.photo;
+                itemElement.appendChild(photo);
+                const about = document.createElement('div');
+                about.classList.add('album-about');
+                about.innerHTML = `<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=${item.location}">${item.about}</a>`;
+                itemElement.appendChild(about);
+                albumElement.appendChild(itemElement);
+            })
+            sectionElement.appendChild(albumElement);
+        }
+
+    </script>
+</body>
+</html>
